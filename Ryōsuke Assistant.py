@@ -14,7 +14,7 @@ while True:
         print('Ryōsuke: Good Morning!')
         playsound('C:\\Users\\Júlia\\Documents\\speak\\good-morning.mp3')
         time.sleep(1)
-        notion = "https://www.notion.so/6780b0c793ea4e0e8c5f14488e213d75"               
+        notion = "https://www.notion.so/"               
         webbrowser.open(notion)
     elif action=="study":
         print('Ryōsuke: Preparing study place...')
