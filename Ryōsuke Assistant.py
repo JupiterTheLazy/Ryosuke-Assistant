@@ -5,14 +5,14 @@ import playsound
 
 print('Ryōsuke: Hello, Master')
 from playsound import playsound
-playsound('C:\\Users\\Júlia\\Documents\\speak\\Hi master.mp3')
+playsound('C:\\Users\\Jupter\\Documents\\speak\\Hi master.mp3')
 while True:
     print('Ryōsuke: How can I help you?')
     action=input('You: ')
 
     if action=="gm":
         print('Ryōsuke: Good Morning!')
-        playsound('C:\\Users\\Júlia\\Documents\\speak\\good-morning.mp3')
+        playsound('C:\\Users\\Jupter\\Documents\\speak\\good-morning.mp3')
         time.sleep(1)
         notion = "https://www.notion.so/"               
         webbrowser.open(notion)
@@ -30,7 +30,7 @@ while True:
         webbrowser.open(music)        
     elif action=="bye":
         print('Ryōsuke: See you later.')
-        playsound('C:\\Users\\Júlia\\Documents\\speak\\see you later.mp3')
+        playsound('C:\\Users\\Jupter\\Documents\\speak\\see you later.mp3')
         #time.sleep(1)
         break
     else:
